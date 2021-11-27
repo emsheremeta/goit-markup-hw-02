@@ -1,0 +1,215 @@
+/* цвет основного текста #757575 */
+/* цвет вторичного текста #212121;*/
+/* акцент #2196F3;*/
+/* белый : #FFFFFF;*/
+
+/* background header #FFFFFF */
+/* background hero  #F5F4FA; */
+/* background section 2 #E5E5E5; */
+/* background Наша команда #F5F4FA; */
+/* background footer #2F303A;*/
+/* backgroung button #F5F4FA */
+ :root{
+     --primary-text-color:#757575;
+     --secondary-text-color:#F5F4FA;
+     --title-color: #212121;
+     --accent-color:#2196F3;
+     --white-color: #FFFFFF;
+     --background-buttom-color: #F5F4FA;
+     --background-footer: #2F303A;
+ }
+
+
+body {
+    color: var(--primary-text-color); 
+    font-family: Roboto, sans-serif; 
+    background-color: var(--white-color);
+   
+}
+.list {
+    list-style: none;
+}
+/* logo */
+.logo{
+     font-family: Raleway;
+     font-weight: 700;
+     font-size: 26px;
+     line-height: 1.19;
+     letter-spacing: 0.03em;
+     text-decoration: none;
+}
+ .accent{
+    color:var(--accent-color);
+} 
+.title-color{
+    color: var(--title-color);
+}
+
+/* site-nav */
+.site-nav{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.site-nav .link{
+    color: var(--title-color) ;
+    text-decoration: none;
+}
+.site-nav .link:hover,
+ .site-nav .link:focus{
+    color:var(--accent-color) ;
+}
+.site-nav .link.current{
+    color: var(--accent-color);
+}
+.contact a{
+    color:var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height:1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.contact a:hover, 
+.contact a:focus{
+    color:var(--accent-color);
+}
+/* hero block */
+.hero{
+    background-color: #2F303A;
+}
+.hero-title{
+    color: var(--white-color) ;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+}
+/* section */
+.section {
+    background-color: #E5E5E5;
+    list-style: none;
+    list-style-type: none;
+    
+}
+.section-title {
+    color: var(--title-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+}
+.section-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+/* Чем мы занимаемся */
+.about{
+    background-color: #E5E5E5;
+}
+.about-title{
+    color: var(--title-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+/* team */
+.team{
+    background-color:#F5F4FA;
+
+}
+.team-name{
+    color: var(--title-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team-photo{
+    list-style-type: none;
+}
+.team-title {
+    color: var(--title-color);
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.18;
+   text-align: center;
+   letter-spacing: 0.03em;
+}
+.team-text{
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+/* button */
+.button {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+   font-weight: 700;
+   font-size: 16px;
+   line-height:1.87;
+}
+.button-primary button:hover,
+.button-primary button:focus{
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+.button.secondary {
+    color: var(--title-color);
+    background-color: var(--background-buttom-color);
+}
+.button-list{
+    list-style-type: none;
+}
+.button-primary{
+    background-color:#E5E5E5;
+}
+
+/* galery */
+.gallery {
+    background-color:#E5E5E5;
+}
+.gallery-title{
+    color: var(--title-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.gallery-text {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+}
+
+/* footer */
+.footer{
+    background-color: var(--background-footer);
+}
+.white-color{
+    color: var(--white-color);
+}
+.address{
+    color: var(--white-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.contact-footer{
+    color: rgba(255, 255, 255, 0.6);  
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
