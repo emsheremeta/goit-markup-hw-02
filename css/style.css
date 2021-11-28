@@ -108,7 +108,9 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
-
+.section-list{
+    list-style-type: none;
+}
 /* Чем мы занимаемся */
 .about{
     background-color: #E5E5E5;
