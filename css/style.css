@@ -165,27 +165,37 @@ body {
 .button-primary button:focus{
     color: var(--white-color);
     background-color: var(--accent-color);
+
 }
 .button.secondary {
     color: var(--title-color);
     background-color: var(--background-buttom-color);
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
 }
 .button-list{
     list-style-type: none;
 }
 .button-primary{
     background-color:#E5E5E5;
+    list-style-type: none;
 }
 
 /* galery */
 .gallery {
     background-color:#E5E5E5;
+    color: var(--title-color);
+
 }
 .gallery-title{
-    color: var(--title-color);
     font-weight: 700;
     font-size: 18px;
-    line-height: 2;
+    line-height: 2.0;
     letter-spacing: 0.06em;
 }
 .gallery-text {
@@ -214,4 +224,5 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
